@@ -5,12 +5,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="tensor_talezz_rv",
-    version="0.1.0",
-    author="TensorTalezz-RV Contributors",
+    version="0.2.0",
+    author="RV Patil",
     description="Making AI Approachable, Interpretable, and Resource-Friendly.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/example/TensorTalezz-RV",
+    url="https://github.com/Rvpatil-tech/TensorTalezz-RV",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

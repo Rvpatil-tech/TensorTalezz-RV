@@ -102,12 +102,16 @@ def quantize_model(model):
         if attr.endswith("_") and not attr.startswith("__"):
             val = getattr(q_model, attr)
             if isinstance(val, np.ndarray) and val.dtype in (np.float64, np.float32):
-                original_size += val.nbytes
                 # Downcast to float16 (or float32 if needed)
                 new_val = val.astype(np.float16)
-                setattr(q_model, attr, new_val)
-                new_size += new_val.nbytes
-                cast_count += 1
+                try:
+                    setattr(q_model, attr, new_val)
+                    original_size += val.nbytes
+                    new_size += new_val.nbytes
+                    cast_count += 1
+                except AttributeError:
+                    # Ignore read-only properties (like feature_importances_)
+                    pass
 
     if cast_count > 0:
         saved = (original_size - new_size) / 1024
