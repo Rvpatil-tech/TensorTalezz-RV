@@ -23,5 +23,5 @@ We are incredibly excited to announce **v0.2.0** of TensorTalezz-RV. This releas
 TensorTalezz-RV is built to be the best way to learn Machine Learning. 
 Did you encounter a deployment quirk or have an idea for an RL demo? **Open an Issue!** We are actively collecting feedback on the new Fairness metrics.
 
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub-pink.svg)](https://github.com/sponsors/example)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub-pink.svg)](https://github.com/sponsors/Rvpatil-tech)
 If you appreciate the work put into this educational system, please consider sponsoring!

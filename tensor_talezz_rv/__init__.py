@@ -14,7 +14,7 @@ Modules:
     - rl_basics: Simple reinforcement learning demonstrations.
 """
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 __author__ = "RV Patil"
 
 from tensor_talezz_rv.core import (

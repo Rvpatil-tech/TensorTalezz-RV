@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="tensor_talezz_rv",
-    version="0.2.0",
+    version="0.2.1",
     author="RV Patil",
     description="Making AI Approachable, Interpretable, and Resource-Friendly.",
     long_description=long_description,

@@ -3,7 +3,7 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub-pink.svg)](https://github.com/sponsors/example)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub-pink.svg)](https://github.com/sponsors/Rvpatil-tech)
 
 Welcome to **TensorTalezz-RV**, a complete, intelligent, explainable ML system designed to bridge the gap between abstract AI concepts and complete real-world implementation.
 
@@ -155,12 +155,25 @@ explain('gradient_descent')
 ## 🚀 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/example/TensorTalezz-RV.git
+git clone https://github.com/Rvpatil-tech/TensorTalezz-RV.git
 cd TensorTalezz-RV
 
 # Install the package
 pip install .
 ```
+
+---
+
+## 💖 Support TensorTalezz‑RV
+**TensorTalezz‑RV is now part of GitHub Sponsors!**  
+If you find this project useful, consider sponsoring to help keep ML approachable, ethical, and fun.
+
+### Sponsor Tiers
+- **☕ Coffee Sponsor** – $3/month → Fuel RV's coffee and keep the library alive.
+- **💻 Code Sponsor** – $10/month → Early roadmap previews + shout-out in README.
+- **🌍 Community Sponsor** – $25/month → Feature requests prioritized + recognition in docs.
+
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub-pink.svg?style=for-the-badge)](https://github.com/sponsors/Rvpatil-tech)
 
 ---
 
